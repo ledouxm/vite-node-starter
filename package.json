@@ -1,0 +1,25 @@
+{
+  "name": "vite-node-starter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/main.js",
+  "scripts": {
+    "dev": "vite-node ./src/main.ts",
+    "test": "vitest",
+    "build": "tsup ./src/main.ts --dts",
+    "start": "node ./dist/main.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.10.1",
+    "tsup": "^8.0.1",
+    "typescript": "^5.3.2",
+    "vite-node": "^0.34.6",
+    "vitest": "^0.34.6"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1"
+  }
+}
